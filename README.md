@@ -26,17 +26,21 @@ cd backend
 npm install
 ```
 
-Create a .env file in the backend directory with your database credentials:
+Create a `.env` file in the `backend` directory with your database credentials:
+```env
 DB_HOST=localhost
 DB_PORT=3306
 DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=PayrollSystem
 PORT=3000
+```
 
 Start the server: node server.js
 
 ### 3. Frontend Setup:
+```
 cd frontend
 npm install
 npm run dev
+```
